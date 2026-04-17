@@ -1,0 +1,85 @@
+1)
+inicio
+  leia falta1, falta2
+  soma <- falta1 + falta2
+  escreva soma
+fim
+
+2)
+inicio
+  leia n1, n2, n3
+  soma <- n1 + n2 + n3
+  escreva soma
+fim
+
+3)
+inicio
+  leia n1, n2, n3
+  media <- (n1 + n2 + n3) / 3
+  escreva media
+fim
+
+4)
+inicio
+  leia horas, minutos
+  total <- (horas * 60) + minutos
+  escreva total
+fim
+
+5)
+inicio
+  leia celsius
+  fahrenheit <- 32 + (1.8 * celsius)
+  escreva fahrenheit
+fim
+
+6)
+inicio
+  leia cat1, cat2
+  hipotenusa <- raiz(cat1^2 + cat2^2)
+  escreva hipotenusa
+fim
+
+7)
+inicio
+  leia A, B, C, D
+  media <- (A*3 + B*4 + C*2 + D*5) / 14
+  escreva media
+fim
+
+8)
+inicio
+  leia A, B, C, D
+  media <- (A*7 + B*3 + C*4 + D*2) / 16
+  escreva media
+fim
+
+9)
+inicio
+  leia prestacao, taxa, dias
+  nova <- prestacao + (prestacao * taxa * dias / 100)
+  escreva nova
+fim
+
+10)
+inicio
+  leia raio, altura
+  volume <- 3.14 * (raio^2) * altura
+  escreva volume
+fim
+
+11)
+inicio
+  leia raio, altura
+  volume <- (3.14 * (raio^2) * altura) / 3
+  escreva volume
+fim
+
+12)
+inicio
+  leia raio, altura
+  area_base <- 3.14 * (raio^2)
+  area_lateral <- 2 * 3.14 * raio * altura
+  area <- 2 * area_base + area_lateral
+  escreva area
+fim
